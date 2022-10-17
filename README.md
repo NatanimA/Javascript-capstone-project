@@ -41,9 +41,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 Ashwin Carvalho
 
-GitHub: [@AshwinCarvalho999 ](https://github.com/AshwinCarvalho999)
-LinkedIn: [ashwin-carvalho ](https://www.linkedin.com/in/ashwin-carvalho-5426701b1/)
-Twitter: [https://twitter.com ](https://twitter.com)
+- GitHub: [@AshwinCarvalho999 ](https://github.com/AshwinCarvalho999)
+- LinkedIn: [ashwin-carvalho ](https://www.linkedin.com/in/ashwin-carvalho-5426701b1/)
+- Twitter: [https://twitter.com ](https://twitter.com)
 
 ## 🤝 Contributing
 
