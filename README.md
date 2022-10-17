@@ -2,25 +2,20 @@
 
 # Project Name
 
-> Description the project.
-
+> This JavaScript capstone project is built on the [TVMAZE API](https://static.tvmaze.com/apidoc/), an external API. The cards display the movies information that was retrieved from the API. The user has the option to like and comment on the movies cards.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JavaScript, and API
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -36,8 +31,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-
-
 ## Authors
 
 👤 **Author1**
@@ -46,11 +39,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+👤 Ashwin Carvalho
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+GitHub: [@AshwinCarvalho999 ](https://github.com/AshwinCarvalho999)
+LinkedIn: [ashwin-carvalho ](https://www.linkedin.com/in/ashwin-carvalho-5426701b1/)
+Twitter: [https://twitter.com ](https://twitter.com)
 
 ## 🤝 Contributing
 
