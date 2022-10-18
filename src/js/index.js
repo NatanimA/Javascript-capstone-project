@@ -9,8 +9,8 @@ logo.innerHTML = `<a href="#"><img class="logo-image" src="${imgLogo}" alt="cent
 
 class Homepage {
     static loadMovies = async () => {
-        const moviesData = await DisplayMovies.fetchMovies();
-        await FetchandInsertMovies.fetchAndDisplay(moviesData);
+      const moviesData = await DisplayMovies.fetchMovies();
+      await FetchandInsertMovies.fetchAndDisplay(moviesData);
     }
 }
 

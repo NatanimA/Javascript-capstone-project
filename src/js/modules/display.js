@@ -1,10 +1,9 @@
-
 export default class FetchandInsertMovies {
     static fetchAndDisplay = (movies) => {
-        movies.forEach((element,index) => {
-            const homepage = document.querySelector('.homepage');
-            if(index < 24){
-                homepage.innerHTML += `
+      movies.forEach((element, index) => {
+        const homepage = document.querySelector('.homepage');
+        if (index < 24) {
+          homepage.innerHTML += `
                 <div class="movies-grid">
                 <ul class="movie-card">
                 <img classs="movie-img" src="${element.image.medium}" alt="Movie Image">
@@ -26,8 +25,7 @@ export default class FetchandInsertMovies {
                 </div>
                 </div>
                 `;
-            }
-        });
-       
+        }
+      });
     }
 }

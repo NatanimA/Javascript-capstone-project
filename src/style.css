@@ -32,10 +32,11 @@ header {
   margin: 8px;
 }
 
-.movie-genere{
+.movie-genere {
   display: flex;
   justify-content: center;
 }
+
 .fa-film {
   margin: 10px;
   color: rgb(139, 0, 0);
@@ -98,7 +99,6 @@ header {
 .movie-btn {
   display: flex;
   justify-content: space-around;
-  
 }
 
 footer {
@@ -133,7 +133,7 @@ footer {
 }
 
 .email-input {
-  padding:10px;
+  padding: 10px;
 }
 
 button {
