@@ -14,13 +14,37 @@ body {
 
 header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 50px 0 50px;
+  position: fixed;
+  background: #000;
+  height: 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fa-star {
+  color: goldenrod;
+}
+
+.movie-detail {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px;
+}
+
+.movie-genere{
+  display: flex;
+  justify-content: center;
+}
+.fa-film {
+  margin: 10px;
+  color: rgb(139, 0, 0);
 }
 
 #nav-list-container {
   display: flex;
+  position: fixed;
+  right: 5%;
   list-style-type: none;
   gap: 50px;
   font-size: 24px;
@@ -44,8 +68,40 @@ header {
   color: rgb(139, 0, 0);
 }
 
+.homepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.comment-btn {
+  background: rgb(10, 200, 0);
+}
+
+.movies-grid {
+  margin: 10px;
+}
+
+.movie-img {
+  width: 100%;
+}
+
+.movie-subtitles {
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie-btn {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
 footer {
-  position: fixed;
+  border-top: 1px solid rgb(139, 0, 0);
   bottom: 0;
   left: 35%;
   color: #fff;
@@ -54,10 +110,10 @@ footer {
 #footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 10px;
+  padding-top: 20px;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .contacts-container {
@@ -73,6 +129,10 @@ footer {
 
 .header-news {
   text-align: center;
+}
+
+.email-input {
+  padding:10px;
 }
 
 button {
