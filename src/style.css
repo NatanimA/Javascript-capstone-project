@@ -1,3 +1,99 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+
+.logo-image {
+    width: 200px;
+    height: 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px 0 50px;
+}
+
+#nav-list-container {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 24px;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-item a:hover {
+    color: rgb(139, 0, 0);
+}
+
+.nav-item:hover {
+    color: rgb(139, 0, 0);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 35%;
+    color: #fff;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.contacts-container {
+    display: flex;
+    border-top: 1px solid rgb(139, 0, 0);
+    flex-flow: wrap;
+    gap: 100px;
+}
+
+.heading {
+    padding: 10px 0;
+}
+
+.header-news {
+    text-align: center;
+}
+
+button {
+    background: rgb(139, 0, 0);
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.stream-list {
+    list-style-type: none;
+}
+
+.social-media-links {
+    display: flex;
+    padding-top: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.social-media-links i {
+    margin: 5px;
 }
