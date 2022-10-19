@@ -91,21 +91,21 @@ header {
   width: 100%;
 }
 
-.comments-section{
+.comments-section {
   display: none;
   position: fixed;
-    overflow-y: scroll;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    backdrop-filter: blur(10px);
-    z-index: 1111;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px);
+  z-index: 1111;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
 }
 
-.comment-single{
+.comment-single {
   width: 30%;
   margin: 7px auto;
   background-color: whitesmoke;
@@ -116,7 +116,7 @@ header {
 .popup-comments {
   position: relative;
   height: 100vh;
-  background-color: rgba(25, 26, 25, 0.25)
+  background-color: rgba(25, 26, 25, 0.25);
 }
 
 .image-and-download {
@@ -134,14 +134,14 @@ header {
 
 .movie-download-btn {
   width: 60%;
-    max-width: 400px;
-    margin-top: 10px;
-    background-color: rgb(10, 200, 0);
-    border: none;
-    padding: 10px;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
+  max-width: 400px;
+  margin-top: 10px;
+  background-color: rgb(10, 200, 0);
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .close-btn {
@@ -156,7 +156,7 @@ header {
   margin-bottom: 10px;
 }
 
-.movie-info{
+.movie-info {
   margin-top: 30px;
   padding: 0 10%;
 }
@@ -180,11 +180,11 @@ header {
   text-align: justify;
 }
 
-.comments-heading, 
+.comments-heading,
 .comments-form-header {
   margin-top: 20px;
-    text-align: center;
-    font-size: 25px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .pop-container {
@@ -232,16 +232,11 @@ header {
 
 .comment-submit-btn {
   background-color: green;
-    border: none;
-    padding: 7px;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.download-link {
+  border: none;
+  padding: 7px;
   color: white;
-  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .movie-subtitles {
