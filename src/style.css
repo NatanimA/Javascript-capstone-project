@@ -105,6 +105,14 @@ header {
     width: 100%;
 }
 
+.comment-single{
+  width: 30%;
+  margin: 7px auto;
+  background-color: whitesmoke;
+  color: green;
+  padding: 2.5%;
+}
+
 .popup-comments {
   position: relative;
   height: 100vh;
