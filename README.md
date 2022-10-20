@@ -43,16 +43,27 @@ npm start
 😉 
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
+- Vscode
+- nodeJs
+- webpack
 
 ### Run tests
 
-### Deployment
+To Test it follow this steps
+
+Please make sure to download the dependencies first
+```
+npm install --save-dev jest
+```
+JS-DOM is needed as well
+```
+npm install -D jest-environment-jsdom
+```
+Lastly
+
+```
+npm test
+```
 
 ## Authors
 
