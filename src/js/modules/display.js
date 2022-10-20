@@ -34,7 +34,6 @@ export default class FetchandInsertMovies {
 
       const count = document.querySelectorAll('.likes');
       count.forEach((input, index) => {
-        input.textContent = '';
         const unique = index + 1;
         Likes.updateLikes(unique, input);
       });

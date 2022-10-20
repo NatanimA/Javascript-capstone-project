@@ -25,7 +25,7 @@ export default class Likes {
     );
     const storedLikes = await response.json();
     storedLikes.forEach((element) => {
-      if (element.item_id === id) {
+      if (element.item_id === `${id}`) {
         display.textContent = `(${element.likes})`;
       }
     });
@@ -41,7 +41,7 @@ export default class Likes {
     const homePage = document.querySelector('.homepage');
     const moviesNumberHolder = document.querySelector('.span-movies-number');
     const movieChilds = homePage.childElementCount;
-    moviesNumberHolder.textContent = `${this.likesCounter()}`;
+    moviesNumberHolder.textContent = `(${this.likesCounter()})`;
     return movieChilds;
   };
 }
