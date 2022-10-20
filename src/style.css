@@ -1,3 +1,309 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background: black;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.logo-image {
+  width: 200px;
+  height: 60px;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  background: #000;
+  height: 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fa-star {
+  color: goldenrod;
+}
+
+.movie-detail {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px;
+}
+
+.movie-genere {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-film {
+  margin: 10px;
+  color: rgb(139, 0, 0);
+}
+
+#nav-list-container {
+  display: flex;
+  position: fixed;
+  right: 5%;
+  list-style-type: none;
+  gap: 50px;
+  font-size: 24px;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item a:hover {
+  color: rgb(139, 0, 0);
+}
+
+.nav-item:hover {
+  color: rgb(139, 0, 0);
+}
+
+.homepage {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.comment-btn {
+  background: rgb(10, 200, 0);
+}
+
+.movies-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.movie-img {
+  width: 100%;
+}
+
+.comments-section {
+  display: none;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px);
+  z-index: 1111;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.comment-single {
+  width: 30%;
+  margin: 7px auto;
+  background-color: whitesmoke;
+  color: green;
+  padding: 2.5%;
+}
+
+.popup-comments {
+  position: relative;
+  height: 100vh;
+  background-color: rgba(25, 26, 25, 0.25);
+}
+
+.image-and-download {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.movie-image-pop {
+  width: 60%;
+  max-width: 400px;
+}
+
+.movie-download-btn {
+  width: 60%;
+  max-width: 400px;
+  margin-top: 10px;
+  background-color: rgb(10, 200, 0);
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: green;
+  font-weight: 700;
+  font-size: 3em;
+  position: absolute;
+  right: 0;
+  padding-right: 5%;
+  margin-bottom: 10px;
+}
+
+.movie-info {
+  margin-top: 30px;
+  padding: 0 10%;
+}
+
+.movie-info-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.movie-genre {
+  margin-bottom: 25px;
+}
+
+.lang-and-rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.summary-div {
+  text-align: justify;
+}
+
+.comments-heading,
+.comments-form-header {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.pop-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-left: 10px;
+}
+
+.comments-list {
+  max-height: 50vh;
+  overflow-y: auto;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.comments-form {
+  padding-bottom: 50px;
+}
+
+.comments-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 550px;
+}
+
+.comment-user-name {
+  padding: 10px;
+  outline-color: rgb(139, 0, 0);
+}
+
+.comments-content {
+  padding: 10px;
+  height: 120px;
+  outline-color: rgb(10, 200, 0);
+}
+
+.download-link {
+  color: white;
+  text-decoration: none;
+}
+
+.comment-submit-btn {
+  background-color: green;
+  border: none;
+  padding: 7px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.movie-subtitles {
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  border-top: 1px solid rgb(139, 0, 0);
+  bottom: 0;
+  left: 35%;
+  color: #fff;
+}
+
+#footer-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacts-container {
+  display: flex;
+  border-top: 1px solid rgb(139, 0, 0);
+  flex-flow: wrap;
+  gap: 100px;
+}
+
+.heading {
+  padding: 10px 0;
+}
+
+.header-news {
+  text-align: center;
+}
+
+.email-input {
+  padding: 10px;
+}
+
+button {
+  background: rgb(139, 0, 0);
+  border: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.stream-list {
+  list-style-type: none;
+}
+
+.social-media-links {
+  display: flex;
+  padding-top: 20px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.social-media-links i {
+  margin: 5px;
 }
