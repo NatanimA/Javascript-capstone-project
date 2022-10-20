@@ -4,9 +4,13 @@
 
 > This JavaScript capstone project is built on the [TVMAZE API](https://static.tvmaze.com/apidoc/), an external API. The cards display the movies information that was retrieved from the API. The user has the option to like and comment on the movies cards.
 
+![](src/assets/cinema.JPG)
+
+![](src/assets/mobil.JPG)
+
 ## Built With
 
-- HTML, CSS, JavaScript, and API
+- HTML, CSS, JavaScript, and Tv-Maze API
 
 ## Live Demo (if available)
 
@@ -14,10 +18,29 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 To get a local copy up and running follow these simple example steps.
+
+
+```
+git clone https://github.com/NatanimA/Javascript-capstone-project.git
+```
+
+```
+npm install
+```
+
+```
+npm run build
+```
+
+Lastly
+
+```
+npm start
+```
+
+😉 
 
 ### Prerequisites
 
@@ -33,11 +56,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 Natanim Abesha
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/NatanimA)
+- Twitter: [@twitterhandle](https://twitter.com/Natanim_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/natanim-abesha-04a39823a/)
 
 👤 Ashwin Carvalho
 
@@ -64,5 +87,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

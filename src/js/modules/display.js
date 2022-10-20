@@ -24,7 +24,7 @@ export default class FetchandInsertMovies {
                 </div>
                 <div class="movie-btn">
                 <button class="comment-btn" id="${element.id}">Comments</button>
-                <button class="reservation-btn" id="${element.id}"><a src="${element.officialSite}">Stream</a></button>
+                <a href="${element.officialSite}" target="_blank"><button class="reservation-btn" id="${element.id}">Stream</button></a>
                 </div>
                 </div>
                 `;
