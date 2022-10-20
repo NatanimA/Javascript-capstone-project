@@ -25,7 +25,7 @@ export default class Likes {
     );
     const storedLikes = await response.json();
     storedLikes.forEach((element) => {
-      if (element.item_id === id) {
+      if (element.item_id === `${id}`) {
         display.textContent = `(${element.likes})`;
       }
     });
