@@ -41,7 +41,7 @@ export default class Likes {
     const homePage = document.querySelector('.homepage');
     const moviesNumberHolder = document.querySelector('.span-movies-number');
     const movieChilds = homePage.childElementCount;
-    moviesNumberHolder.textContent = `${this.likesCounter()}`;
+    moviesNumberHolder.textContent = `(${this.likesCounter()})`;
     return movieChilds;
   };
 }

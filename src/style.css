@@ -9,7 +9,7 @@ body {
 
 .logo-image {
   width: 200px;
-  height: 60px;
+  height: 100%;
 }
 
 header {
@@ -255,6 +255,10 @@ footer {
   border-top: 1px solid rgb(139, 0, 0);
   bottom: 0;
   left: 35%;
+  color: #fff;
+}
+
+.span-movies-number{
   color: #fff;
 }
 
