@@ -150,14 +150,6 @@ header {
   background-color: rgba(25, 26, 25, 0.25);
 }
 
-.image-and-download {
-  display: flex;
-  width: 65%;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
-}
-
 .movie-image-pop {
   width: 60%;
   max-width: 400px;
@@ -225,13 +217,6 @@ header {
   margin-top: 20px;
   text-align: center;
   font-size: 25px;
-}
-
-.pop-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  margin-left: 10px;
 }
 
 .comments-list {
@@ -352,7 +337,7 @@ button {
   margin: 5px;
 }
 
-#mobile-navbar{
+#mobile-navbar {
   display: none;
 }
 
@@ -378,36 +363,28 @@ button {
 
 @media only screen and (max-width: 768px) {
   body {
-      margin: 0;
-      overflow-x: hidden;
-    }
-  
-    body.active {
-      overflow-y: hidden;
-      display: inline;
-    }
-  
-    header {
-      position: fixed;
-      width: 100%;
-      display: flex;
-      padding: 20px 36px 15px 24px;
-      justify-content: space-between;
-      align-items: center;
-    }
+    margin: 0;
+    overflow-x: hidden;
+  }
 
+  body.active {
+    overflow-y: hidden;
+    display: inline;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 20px 36px 15px 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   nav {
     position: absolute;
     right: 30px;
     top: 10px;
-  }
-
-  header {
-    display: flex;
-    position: fixed;
-    background: #000;
-    height: 70px;
   }
 
   #nav-list-container {
@@ -428,6 +405,7 @@ button {
     text-decoration: none;
     color: #fff;
   }
+
   .homepage {
     display: grid;
     grid-template-columns: auto;
@@ -452,37 +430,37 @@ button {
     height: 100%;
   }
 
-    .movie-card img{
-      width: 90%;
-    }
+  .movie-card img {
+    width: 90%;
+  }
 
-    .movie-subtitles{
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-      flex-direction: row;
-      justify-content: space-between;
-    }
+  .movie-subtitles {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .movie-name-title{
-      width: 40%;
-    }
-    .movie-btn{
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      justify-content: space-around;
-      padding: 10px;
-    }
+  .movie-name-title {
+    width: 40%;
+  }
 
-    .movie-detail {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      justify-content: space-around;
-    }
+  .movie-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .movie-detail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
 
   #footer-container {
     display: flex;
@@ -516,21 +494,22 @@ button {
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
   }
-  .comments-section{
-      transition: all 0.3s ease-in-out;
-      overflow-y: scroll;
-      overflow-x: hidden;
-      width: 100%;
-      height: 100%;
-      position: fixed;
-      box-sizing: border-box;
+
+  .comments-section {
+    transition: all 0.3s ease-in-out;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    box-sizing: border-box;
   }
 
   .popup-comments {
     width: 80%;
   }
 
-  .pop-container{
+  .pop-container {
     width: 100%;
     display: grid;
   }
