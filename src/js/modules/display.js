@@ -1,3 +1,5 @@
+import Likes from "./likes.js";
+
 export default class FetchandInsertMovies {
     static fetchAndDisplay = (movies) => {
       movies.forEach((element, index) => {
@@ -10,7 +12,8 @@ export default class FetchandInsertMovies {
                 </ul>
                 <div class="movie-subtitles">
                 <h3>${element.name}</h3>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart" id=${element.id}></i>
+                <p id="${element.id}" class="likes"></p>
                 </div>
                 <div class="movie-detail">
                 <i class="fa-solid fa-language">: ${element.language}</i>
@@ -27,5 +30,13 @@ export default class FetchandInsertMovies {
                 `;
         }
       });
+      Likes.homePageMoviesCount();
+
+      const count = document.querySelectorAll('.likes')
+      count.forEach((input, index) => {
+        input.textContent=''
+        const unique=index+1;
+        Likes.updateLikes(unique,input);
+      })
     }
 }

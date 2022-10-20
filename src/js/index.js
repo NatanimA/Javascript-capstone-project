@@ -3,6 +3,7 @@ import imgLogo from '../assets/century-logo.png';
 import DisplayMovies from './modules/apiUtility.js';
 import FetchandInsertMovies from './modules/display.js';
 import PopUpComment from './modules/comment.js';
+import Likes from './modules/likes.js';
 
 const logo = document.querySelector('#logo-container');
 const commentSection = document.querySelector('.comments-section');
@@ -61,3 +62,13 @@ commentBtn.addEventListener('click', async (event) => {
     commentFail.innerHTML = 'Failed,Please try again';
   }
 });
+
+homepage.addEventListener('click',async (event) => {
+  if (event.target.className === 'fa fa-heart'){
+    const strId = event.target.id;
+    await Likes.addLikes(strId);
+    const container = event.target.parentElement.lastElementChild;
+    console.log("Container", event.target.parentElement.lastElementChild)
+    await Likes.updateLikes(strId,container)
+  }
+})
