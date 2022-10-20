@@ -7,17 +7,20 @@
     "build": "webpack ./src/js/index.js",
     "start": "webpack serve --open",
     "test": "jest --coverage"
-  },
+  }
+  ,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NatanimA/Javascript-capstone-project.git"
-  },
+  }
+  ,
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NatanimA/Javascript-capstone-project/issues"
-  },
+
+  }
+  ,
   "homepage": "https://github.com/NatanimA/Javascript-capstone-project#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",

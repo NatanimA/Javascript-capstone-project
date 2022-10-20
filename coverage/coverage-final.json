@@ -1,2 +1,186 @@
-{"C:\\Users\\user\\Documents\\Experiments And Training Lab\\Microverse-Projects\\Javascript-capstone-project\\src\\js\\modules\\likes.js": {"path":"C:\\Users\\user\\Documents\\Experiments And Training Lab\\Microverse-Projects\\Javascript-capstone-project\\src\\js\\modules\\likes.js","statementMap":{"0":{"start":{"line":1,"column":22},"end":{"line":1,"column":116}},"1":{"start":{"line":3,"column":20},"end":{"line":7,"column":3}},"2":{"start":{"line":4,"column":21},"end":{"line":4,"column":58}},"3":{"start":{"line":5,"column":18},"end":{"line":5,"column":39}},"4":{"start":{"line":6,"column":4},"end":{"line":6,"column":17}},"5":{"start":{"line":9,"column":20},"end":{"line":20,"column":3}},"6":{"start":{"line":10,"column":21},"end":{"line":18,"column":6}},"7":{"start":{"line":19,"column":4},"end":{"line":19,"column":20}},"8":{"start":{"line":22,"column":23},"end":{"line":32,"column":3}},"9":{"start":{"line":23,"column":21},"end":{"line":25,"column":5}},"10":{"start":{"line":26,"column":24},"end":{"line":26,"column":45}},"11":{"start":{"line":27,"column":4},"end":{"line":31,"column":7}},"12":{"start":{"line":28,"column":6},"end":{"line":30,"column":7}},"13":{"start":{"line":29,"column":8},"end":{"line":29,"column":51}},"14":{"start":{"line":34,"column":24},"end":{"line":38,"column":3}},"15":{"start":{"line":35,"column":21},"end":{"line":35,"column":56}},"16":{"start":{"line":36,"column":24},"end":{"line":36,"column":50}},"17":{"start":{"line":37,"column":4},"end":{"line":37,"column":23}},"18":{"start":{"line":40,"column":31},"end":{"line":46,"column":3}},"19":{"start":{"line":41,"column":21},"end":{"line":41,"column":56}},"20":{"start":{"line":42,"column":31},"end":{"line":42,"column":76}},"21":{"start":{"line":43,"column":24},"end":{"line":43,"column":50}},"22":{"start":{"line":44,"column":4},"end":{"line":44,"column":64}},"23":{"start":{"line":45,"column":4},"end":{"line":45,"column":23}}},"fnMap":{"0":{"name":"(anonymous_0)","decl":{"start":{"line":3,"column":20},"end":{"line":3,"column":21}},"loc":{"start":{"line":3,"column":32},"end":{"line":7,"column":3}},"line":3},"1":{"name":"(anonymous_1)","decl":{"start":{"line":9,"column":20},"end":{"line":9,"column":21}},"loc":{"start":{"line":9,"column":34},"end":{"line":20,"column":3}},"line":9},"2":{"name":"(anonymous_2)","decl":{"start":{"line":22,"column":23},"end":{"line":22,"column":24}},"loc":{"start":{"line":22,"column":46},"end":{"line":32,"column":3}},"line":22},"3":{"name":"(anonymous_3)","decl":{"start":{"line":27,"column":24},"end":{"line":27,"column":25}},"loc":{"start":{"line":27,"column":37},"end":{"line":31,"column":5}},"line":27},"4":{"name":"(anonymous_4)","decl":{"start":{"line":34,"column":24},"end":{"line":34,"column":25}},"loc":{"start":{"line":34,"column":30},"end":{"line":38,"column":3}},"line":34},"5":{"name":"(anonymous_5)","decl":{"start":{"line":40,"column":31},"end":{"line":40,"column":32}},"loc":{"start":{"line":40,"column":37},"end":{"line":46,"column":3}},"line":40}},"branchMap":{"0":{"loc":{"start":{"line":28,"column":6},"end":{"line":30,"column":7}},"type":"if","locations":[{"start":{"line":28,"column":6},"end":{"line":30,"column":7}},{"start":{},"end":{}}],"line":28}},"s":{"0":1,"1":1,"2":0,"3":0,"4":0,"5":1,"6":0,"7":0,"8":1,"9":0,"10":0,"11":0,"12":0,"13":0,"14":1,"15":1,"16":1,"17":1,"18":1,"19":0,"20":0,"21":0,"22":0,"23":0},"f":{"0":0,"1":0,"2":0,"3":0,"4":1,"5":0},"b":{"0":[0,0]},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"07ae929ebe90926732eed763023ce61dfd86b610"}
+{
+  "C:\\Users\\user\\Documents\\Experiments And Training Lab\\Microverse-Projects\\Javascript-capstone-project\\src\\js\\modules\\likes.js": {
+    "path":"C:\\Users\\user\\Documents\\Experiments And Training Lab\\Microverse-Projects\\Javascript-capstone-project\\src\\js\\modules\\likes.js","statementMap": {
+      "0": {
+        "start": { 1,"column":22; }
+        ,"end": { 1,"column":116; }
+      }
+      ,"1": {
+        "start": { 3,"column":20; }
+        ,"end": { 7,"column":3; }
+      }
+      ,"2": {
+        "start": { 4,"column":21; }
+        ,"end": { 4,"column":58; }
+      }
+      ,"3": {
+        "start": { 5,"column":18; }
+        ,"end": { 5,"column":39; }
+      }
+      ,"4": {
+        "start": { 6,"column":4; }
+        ,"end": { 6,"column":17; }
+      }
+      ,"5": {
+        "start": { 9,"column":20; }
+        ,"end": { 20,"column":3; }
+      }
+      ,"6": {
+        "start": { 10,"column":21; }
+        ,"end": { 18,"column":6; }
+      }
+      ,"7": {
+        "start": { 19,"column":4; }
+        ,"end": { 19,"column":20; }
+      }
+      ,"8": {
+        "start": { 22,"column":23; }
+        ,"end": { 32,"column":3; }
+      }
+      ,"9": {
+        "start": { 23,"column":21; }
+        ,"end": { 25,"column":5; }
+      }
+      ,"10": {
+        "start": { 26,"column":24; }
+        ,"end": { 26,"column":45; }
+      }
+      ,"11": {
+        "start": { 27,"column":4; }
+        ,"end": { 31,"column":7; }
+      }
+      ,"12": {
+        "start": { 28,"column":6; }
+        ,"end": { 30,"column":7; }
+      }
+      ,"13": {
+        "start": { 29,"column":8; }
+        ,"end": { 29,"column":51; }
+      }
+      ,"14": {
+        "start": { 34,"column":24; }
+        ,"end": { 38,"column":3; }
+      }
+      ,"15": {
+        "start": { 35,"column":21; }
+        ,"end": { 35,"column":56; }
+      }
+      ,"16": {
+        "start": { 36,"column":24; }
+        ,"end": { 36,"column":50; }
+      }
+      ,"17": {
+        "start": { 37,"column":4; }
+        ,"end": { 37,"column":23; }
+      }
+      ,"18": {
+        "start": { 40,"column":31; }
+        ,"end": { 46,"column":3; }
+      }
+      ,"19": {
+        "start": { 41,"column":21; }
+        ,"end": { 41,"column":56; }
+      }
+      ,"20": {
+        "start": { 42,"column":31; }
+        ,"end": { 42,"column":76; }
+      }
+      ,"21": {
+        "start": { 43,"column":24; }
+        ,"end": { 43,"column":50; }
+      }
+      ,"22": {
+        "start": { 44,"column":4; }
+        ,"end": { 44,"column":64; }
+      }
+      ,"23": {
+        "start": { 45,"column":4; }
+        ,"end": { 45,"column":23; }
+      }
+    }
+    ,"fnMap": {
+      "0": {
+        "name":"(anonymous_0)","decl": {
+          "start": { 3,"column":20; }
+          ,"end": { 3,"column":21; }
+        }
+        ,"loc": {
+          "start": { 3,"column":32; }
+          ,"end": { 7,"column":3; }
+        }
+        ,"line":3;
+      }
+      ,"1": {
+        "name":"(anonymous_1)","decl": {
+          "start": { 9,"column":20; }
+          ,"end": { 9,"column":21; }
+        }
+        ,"loc": {
+          "start": { 9,"column":34; }
+          ,"end": { 20,"column":3; }
+        }
+        ,"line":9;
+      }
+      ,"2": {
+        "name":"(anonymous_2)","decl": {
+          "start": { 22,"column":23; }
+          ,"end": { 22,"column":24; }
+        }
+        ,"loc": {
+          "start": { 22,"column":46; }
+          ,"end": { 32,"column":3; }
+        }
+        ,"line":22;
+      }
+      ,"3": {
+        "name":"(anonymous_3)","decl": {
+          "start": { 27,"column":24; }
+          ,"end": { 27,"column":25; }
+        }
+        ,"loc": {
+          "start": { 27,"column":37; }
+          ,"end": { 31,"column":5; }
+        }
+        ,"line":27;
+      }
+      ,"4": {
+        "name":"(anonymous_4)","decl": {
+          "start": { 34,"column":24; }
+          ,"end": { 34,"column":25; }
+        }
+        ,"loc": {
+          "start": { 34,"column":30; }
+          ,"end": { 38,"column":3; }
+        }
+        ,"line":34;
+      }
+      ,"5": {
+        "name":"(anonymous_5)","decl": {
+          "start": { 40,"column":31; }
+          ,"end": { 40,"column":32; }
+        }
+        ,"loc": {
+          "start": { 40,"column":37; }
+          ,"end": { 46,"column":3; }
+        }
+        ,"line":40;
+      }
+    }
+    ,"branchMap": {
+      "0": {
+        "loc": {
+          "start": { 28,"column":6; }
+          ,"end": { 30,"column":7; }
+        }
+        ,"type":"if";
+        ,"locations":[{"start":{"line":28,"column":6},"end":{"line":30,"column":7}},{"start":{},"end":{}}],"line";
+        :28;
+      }
+    }
+    ,"s": { 1,"1":1,"2":0,"3":0,"4":0,"5":1,"6":0,"7":0,"8":1,"9":0,"10":0,"11":0,"12":0,"13":0,"14":1,"15":1,"16":1,"17":1,"18":1,"19":0,"20":0,"21":0,"22":0,"23":; }
+    ,"f": { 0,"1":0,"2":0,"3":0,"4":1,"5":; }
+    ,"b": { 0,0]; }
+    ,"_coverageschema":"1a1c01bbd47fc00a2c39e90264f33305004495a9";
+    ,"hash":"07ae929ebe90926732eed763023ce61dfd86b610";
+  }
 }
