@@ -1,4 +1,4 @@
-import Likes from "./likes.js";
+import Likes from './likes.js';
 
 export default class FetchandInsertMovies {
     static fetchAndDisplay = (movies) => {
@@ -32,11 +32,11 @@ export default class FetchandInsertMovies {
       });
       Likes.homePageMoviesCount();
 
-      const count = document.querySelectorAll('.likes')
+      const count = document.querySelectorAll('.likes');
       count.forEach((input, index) => {
-        input.textContent=''
-        const unique=index+1;
-        Likes.updateLikes(unique,input);
-      })
+        input.textContent = '';
+        const unique = index + 1;
+        Likes.updateLikes(unique, input);
+      });
     }
 }

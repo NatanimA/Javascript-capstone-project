@@ -63,12 +63,11 @@ commentBtn.addEventListener('click', async (event) => {
   }
 });
 
-homepage.addEventListener('click',async (event) => {
-  if (event.target.className === 'fa fa-heart'){
+homepage.addEventListener('click', async (event) => {
+  if (event.target.className === 'fa fa-heart') {
     const strId = event.target.id;
     await Likes.addLikes(strId);
     const container = event.target.parentElement.lastElementChild;
-    console.log("Container", event.target.parentElement.lastElementChild)
-    await Likes.updateLikes(strId,container)
+    await Likes.updateLikes(strId, container);
   }
-})
+});
