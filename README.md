@@ -16,7 +16,7 @@
 
 [Live Demo Link](https://natanima.github.io/Javascript-capstone-project/)
 
-[presentaion Link] (https://drive.google.com/file/d/1l3tjUHZ3Pg7TJk6XCkybGSyrFQJyvutS/view)
+[presentaion Link](https://drive.google.com/file/d/1l3tjUHZ3Pg7TJk6XCkybGSyrFQJyvutS/view)
 
 ## Getting Started
 
