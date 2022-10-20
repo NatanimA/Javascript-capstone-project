@@ -32,6 +32,33 @@ header {
   margin: 8px;
 }
 
+.fa-heart {
+  position: absolute;
+  right: 40px;
+  margin-right: 10px;
+  font-size: 20px;
+  top:20px;
+}
+
+.movie-name-title{
+  align-self: flex-start;
+  margin-left: 10%;
+}
+
+.fa-heart:active{
+  color: rgb(139, 0, 0);
+}
+
+.fa-heart:active::selection{
+  color: rgb(139, 0, 0);
+}
+
+.likes {
+  position: absolute;
+  right: 10px;
+  top:0;
+}
+
 .movie-genere {
   display: flex;
   justify-content: center;
@@ -88,7 +115,11 @@ header {
 }
 
 .movie-img {
-  width: 100%;
+  width: inherit;
+}
+
+.movies-grid:hover{
+  opacity: 0.8;
 }
 
 .comments-section {
@@ -136,7 +167,7 @@ header {
   width: 60%;
   max-width: 400px;
   margin-top: 10px;
-  background-color: rgb(10, 200, 0);
+  background-color: rgb(139, 0, 0);
   border: none;
   padding: 10px;
   color: white;
@@ -144,10 +175,19 @@ header {
   font-weight: 700;
 }
 
+.copyright-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  background: #000;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
 .close-btn {
   background: none;
   border: none;
-  color: green;
+  color: rgb(139, 0, 0);
   font-weight: 700;
   font-size: 3em;
   position: absolute;
@@ -240,10 +280,11 @@ header {
 }
 
 .movie-subtitles {
+  position: relative;
   color: #fff;
   font-size: 16px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
 }
 
 .movie-btn {
