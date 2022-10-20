@@ -11,7 +11,7 @@ export default class FetchandInsertMovies {
                 <img classs="movie-img" src="${element.image.medium}" alt="Movie Image">
                 </ul>
                 <div class="movie-subtitles">
-                <h3>${element.name}</h3>
+                <h3 class="movie-name-title">${element.name}</h3>
                 <i class="fa fa-heart" id=${element.id}></i>
                 <p id="${element.id}" class="likes"></p>
                 </div>
@@ -24,7 +24,7 @@ export default class FetchandInsertMovies {
                 </div>
                 <div class="movie-btn">
                 <button class="comment-btn" id="${element.id}">Comments</button>
-                <button class="reservation-btn" id="${element.id}">Stream</button>
+                <a href="${element.officialSite}" target="_blank"><button class="reservation-btn" id="${element.id}">Stream</button></a>
                 </div>
                 </div>
                 `;

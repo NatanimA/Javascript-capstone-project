@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 const involvmentApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/3CNfK8xiNLfIWKUKw5ck';
 const commentsDetail = document.querySelector('.comments-detail');
 const commentsUser = document.querySelector('.comment-user-name');
@@ -32,7 +36,7 @@ export default class PopUpComment {
             <div class="image-and-download">
                 <img class="movie-image-pop" src="${movieImageUrl}">
                 <button class="movie-download-btn" type="button">
-                    <a class="download-link" href="${movieDownload}" targer="_blank">Download</a>
+                    <a class="download-link" href="${movieDownload}" targer="_blank">Stream</a>
                 </button>
             </div>
             <div class="movie-info">
