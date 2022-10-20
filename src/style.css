@@ -37,26 +37,26 @@ header {
   right: 40px;
   margin-right: 10px;
   font-size: 20px;
-  top:20px;
+  top: 20px;
 }
 
-.movie-name-title{
+.movie-name-title {
   align-self: flex-start;
   margin-left: 10%;
 }
 
-.fa-heart:active{
+.fa-heart:active {
   color: rgb(139, 0, 0);
 }
 
-.fa-heart:active::selection{
+.fa-heart:active::selection {
   color: rgb(139, 0, 0);
 }
 
 .likes {
   position: absolute;
   right: 10px;
-  top:0;
+  top: 0;
 }
 
 .movie-genere {
@@ -118,7 +118,7 @@ header {
   width: inherit;
 }
 
-.movies-grid:hover{
+.movies-grid:hover {
   opacity: 0.8;
 }
 
@@ -175,13 +175,13 @@ header {
   font-weight: 700;
 }
 
-.copyright-section{
+.copyright-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 8px;
   background: #000;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 12px 28px 0, rgba(0, 0, 0, 0.1) 0 2px 4px 0, rgba(255, 255, 255, 0.05) 0 0 0 1px inset;
 }
 
 .close-btn {
