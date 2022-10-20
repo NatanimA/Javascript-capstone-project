@@ -5,8 +5,8 @@
 import Likes from '../js/modules/likes.js';
 
 describe('Items In homepage counter', () => {
-    test('Should check the number of movies in homepage', async () => {
-        document.body.innerHTML = `<span class="span-movies-number"></span><section class="homepage">
+  test('Should check the number of movies in homepage', async () => {
+    document.body.innerHTML = `<span class="span-movies-number"></span><section class="homepage">
             <div class="movies-grid">
                 <ul class="movie-card">
                 <img classs="movie-img" src="" alt="Movie Image">
@@ -29,7 +29,7 @@ describe('Items In homepage counter', () => {
                 </div>
                 </div>
          </section>`;
-        const moviesCount = Likes.likesCounter();
-        expect(moviesCount).toBe(1);
-    });
+    const moviesCount = Likes.likesCounter();
+    expect(moviesCount).toBe(1);
+  });
 });
